@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <script src="/js/mostrar_marca.js"></script>
+    <title>Registro de marcas</title>
+</head>
+<body onload="mostarMarca();" class="container">
+        <!-- nav bar -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/davMotos.html">DavMotos</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/pages/mostrar_dueno.html">Registro de dueños</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/mostrar_moto.html">Registro de motos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/mostrar_clientes.html">Registro de clientes</a>
+          </li>
+     
+        </ul>
+      </div>
+    </div>
+
+  </nav>
+<!-- nav bar -->
+
+<h3>
+  <small class="text-muted">Registro de marcas</small>
+</h3>
+ 
+<!--tabla -->
+
+<h4>Agregar moto</h4>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  <img src="/img/agregar.png" alt="">
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Agregar registro</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group row">
+            <label for="txt_ano_moto1" class="col-sm-2 col-form-label">Año moto</label>
+            <div class="col-sm-10">
+            <input type="text" class="form-control" id="txt_ano_moto1" placeholder="" >
+          </div>
+          </div>
+          <div class="form-group row">
+            <label for="txt_nombre_marca1" class="col-sm-2 col-form-label">Nombre marca </label>
+            <div class="col-sm-10">
+            <input type="text" class="form-control" id="txt_nombre_marca1" placeholder="" >
+          </div>
+          </div>
+          <div class="form-group row">
+            <label for="txt_nombre_modelo1" class="col-sm-2 col-form-label">Nombre modelo </label>
+            <div class="col-sm-10">
+            <input type="text" class="form-control" id="txt_nombre_modelo1" placeholder="" >
+          </div>
+          </div>
+          <div class="form-group row">
+            <label for="txt_color_moto1" class="col-sm-2 col-form-label">Color moto</label>
+            <div class="col-sm-10">
+            <input type="text" class="form-control" id="txt_color_moto1" placeholder="" >
+          </div>
+          </div>
+          <div class="form-group row">
+            <label for="txt_cilindrada_moto1" class="col-sm-2 col-form-label">Cilindrada</label>
+            <div class="col-sm-10">
+            <input type="text" class="form-control" id="txt_cilindrada_moto1" placeholder="" >
+          </div>
+          </div>
+          
+
+         
+          
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary" onclick="agregar();">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<table class="table">
+        <thead>
+            <tr>
+                <th>
+                    ID Marca
+                </th>
+                <th>
+                    Nombre marca
+                </th>
+                <th>
+                    Nacionalidad marca
+                </th>
+               
+               
+                
+            </tr>
+        </thead>
+        <tbody class="data">
+          
+          
+
+
+        </tbody>
+    </table>
+</body>
+</html>
+
+
+
+<!--  validar rut: <header>
+  <h1>Valida RUT</h1>
+  <p>Algoritmo de validaciónd del rut Chileno</p>
+</header>
+  <content>
+    <div id="wrapper" >
+      <p>&nbsp;</p>
+      <div class="input-group input-group-lg">
+        <span class="input-group-addon" id="sizing-addon1">Rut</span>
+        <input type="text" class="form-control" placeholder="Rut a validar, ej: 11111111-1" aria-describedby="sizing-addon1" id="txt_rut">
+      </div>
+			<p>&nbsp;</p>
+			<button id="btnvalida" class="btn btn-default">Valida RUT</button>
+      <p>&nbsp;</p>
+      <p class="text-info" id="msgerror"></p>
+    </div>
+  </content> -->

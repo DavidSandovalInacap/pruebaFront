@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CDN BOOSTRAp -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>DavMotos</title>
+</head>
+
+<body>
+    <!-- navbar -->
+  <section id="puntoxd">
+    <div class="navbarColors">
+    <nav class="navbar navbar-expand-lg" style="background-color: rgb(78, 74, 74)">
+      <div class="container-fluid">
+        <a class="navbar-brand">
+          <img src="img/logo2.png" alt="Logo" width="90" height="90" class="d-inline-block align-text-top">
+        </a>
+        <a class="navbar-brand" id="navLetras" >DavMotos</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <li class="nav-item dropdown" id="listaSpace" >
+          <a class="nav-link dropdown-toggle" id="navLetras"  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            marcas
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" id="navLetras" href="#Honda">Motos Honda</a></li>
+            <li><a class="dropdown-item" id="navLetras" href="#BMW">Motos BMW</a></li>
+            <li><a class="dropdown-item" id="navLetras" href="#Yamaha">Motos Yamaha</a></li>
+            <li><a class="dropdown-item" id="navLetras" href="#Yamaha">Motos Suzuki</a></li>
+          </ul>
+        </li>
+
+
+        <li class="nav-item dropdown" id="listaSpace">
+          <a class="nav-link dropdown-toggle" id="navLetras" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Implementos de seguridad
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" id="navLetras" href="#Implementos">Implementos de seguridad</a></li>
+            <li><a class="dropdown-item" id="navLetras" href="#Cascos">Cascos</a></li>
+            <li><a class="dropdown-item" id="navLetras" href="#Guantes">Guantes</a></li>
+            <li><a class="dropdown-item" id="navLetras" href="#Chaleco">Chaleco Airbag</a></li>
+            <li><a class="dropdown-item" id="navLetras" href="#Botas">Botas de seguridad</a></li>
+          </ul>
+        </li>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            
+            <a class="nav-link" id="navLetras" href="#mapa">¿Donde nos encuentras?</a>
+            <a class="nav-link" id="navLetras" href="#contacto">Contactanos</a>
+            <a class="nav-link" id="navLetras" href="/pages/mostrar_dueno.html">Nuestros registros</a>
+            
+
+          </div>
+        </div>
+      </div>
+    </nav>
+   </div>
+  </section> 
+    <!-- fin navbar -->
+    <br>
+    
+<section class="container">    
+     <!-- carrusel -->
+     
+     <section id="carouselExampleCaptions" class="carousel slide">
+       <div class="carousel-indicators">
+         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+       </div>
+       <div class="carousel-inner">
+         <div class="carousel-item active">
+           <img src="img/210117_my21_rh1250s_beauty_0020_hdi.jpg" class="d-block w-100"  id="imgNormalizacion" alt="...">
+           <div class="carousel-caption d-none d-md-block" id="letrasCarrusel1">
+             <h5>Bienvenidos a DavMotos</h5>
+             <p>Aqui encontraras diferentes marcas de motos.</p>
+           </div>
+         </div>
+         <div class="carousel-item" id="letrasCarrusel2">
+           <img src="img/consejos-conducir-moto.jpg" class="d-block w-100" id="imgNormalizacion" alt="...">
+           <div class="carousel-caption d-none d-md-block">
+             <h5>Elementos de seguridad</h5>
+             <p>Con nosotros puedes ver el equipo escencial para manejar moto</p>
+           </div>
+         </div>
+         <div class="carousel-item" id="letrasCarrusel3">
+           <img src="img/SZXLJ37NUNBKRLL3MXBK6DTUGI.jpg" class="d-block w-100" id="imgNormalizacion" alt="...">
+           <div class="carousel-caption d-none d-md-block">
+             <h5>Contacto y ubicacion</h5>
+             <p>Puedes contactarnos y saber donde nos encontramos. .</p>
+           </div>
+         </div>
+       </div>
+       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Previous</span>
+       </button>
+       <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Next</span>
+       </button>
+     </section>
+  <!-- fin carrusel -->
+
+  <!-- grupo card 1-->
+ <br>
+ <br>
+  <section id="Honda"><h2>Motos Honda</h2></section> 
+  <br>
+  <br>
+  <section class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+      <div class="card">
+        <img src="img/donda cb500.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Honda CB500 X  </h5>
+          <p class="card-text">La Honda CB500X es una pequeña trail urbana para el carnet A2 con motor bicilíndrico de 471 cc y 47 CV de potencia. Su mayor virtud se encuentra en la versatilidad, pues a sus dotes urbanas hay que sumar sus capacidades ruteras incluso fuera del asfalto. En 2022 se actualiza con mejoras sustanciales que afectan principalmente a la parte ciclo. En 2023 permanece sin cambios.</p>
+         </div>
+       </div>
+     </div>
+     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+       <div class="card">
+         <img src="img/honda 2.png" class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title">Honda CB650R</h5>
+           <p class="card-text">La Honda CB650R es una naked de estética neo-retro perteneciente a la famila Sport Neo Café de la marca japonesa, en la que también se incluye la CB125R, la CB300R y la CB1000R. La CBR650R emplea la base de la moto a la que sustituyó en 2019, la CB650F, mejorándola en todo para ofrecer mejores prestaciones y diferente ergonomía, apostando por un concepto más deportivo, actual y en el que la calidad también sube de nivel. En 2021 vuelve a actualizarse con una nueva horquilla Showa de funciones separadas, con la homologación Euro 5 y además se ha añadido un nuevo color gris que sustituye al anterior plata. Es una moto limitable para los usuarios del carnet A2. En 2022 y en 2023 tan sólo se realizan cambios en la decoración.</p>
+         </div>
+       </div>
+     </div>
+     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+       <div class="card">
+         <img src="img/HONDA3.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title">HONDA CB125R</h5>
+           <p class="card-text">La Honda CB125R es una pequeña naked de aspecto neo-retro que destaca por su potente motor y notable parte ciclo. Nacida en 2018, en 2021 se actualiza con un nuevo motor Euro5 y con una nueva horquilla Showa SFF-BP. Este nuevo propulsor no es sólo más eficiente que el anterior que derivaba de la CBR125R, es también más potente -casi 15 CV- y con más par, lo que también se convierte en más rápido: 105 km/h de velocidad punta. Se trata de un motor de moderna configuración, con seis velocidades y alimentado por inyección electrónica.El consumo anunciado es de 2,1 litros a los 100 km, lo que supone una autonomía de 470 km con su depósito de 10 litros lleno.</p>
+         </div>
+       </div>
+     </div>
+     <div class = "col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4"></div>
+     <div id="videoHonda" class = "col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4"><iframe width="415" height="365" src="https://www.youtube.com/embed/HkogwBHaHnA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> </div>
+    </section>
+   
+ 
+
+  <!-- fin grupo card 1 -->
+<br>
+<br>
+  <!-- grupo card 2 -->
+<section>
+  <div id="BMW"><H1>Motos BMW'S</H1></div>
+  <br>
+  <br>
+  <div class="card-group">
+    <div class = "col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+      <div class="card">
+        <img src="img/bmw1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">BMW R 1200 GS</h5>
+          <p class="card-text">La BMW R 1200 GS recibe interesantes mejoras. A la trail alemana, una de las motos más vendidas, se le puede añadir como equipamiento extra la llamada de emergencia eCall, el sistema Connected Ride  y los faros auxiliares de LED rediseñados.</p>
+          <p class="card-text"><small class="text-body-secondary"></small></p>
+        </div>
+      </div>
+    </div>  
+    <br>
+    <div id="videoBMW" class = "col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-4"><iframe width="425" height="315" src="https://www.youtube.com/embed/A5saFIDqGGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="padding: 10px;align-items: center; margin-left: 4px;"></iframe></div>
+    <div class = "col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+      <div class="card">
+        <img src="img/BMW 2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">bmw g 650 gs Sertao</h5>
+          <p class="card-text">La BMW G 650 GS 2011 es una clásica entre las trail monocilíndricas, dotada de un fiable y robusto motor de 650 cc. que ofrece 48 caballos. Es capaz de satisfacer en carretera y caminos de campo, pero también es una excelente compañera en ciudad.</p>
+          <p class="card-text"><small class="text-body-secondary"></small></p>
+        </div>
+      </div>
+    </div>
+    </div>   
+</section>   
+  <!-- fin frupo card 2 -->
+  <br>
+  <br>
+  <!-- grupo card 3 -->
+  <section id="Yamaha"><h2>Motos Yamaha</h2></section>
+  <br>
+  <br>
+  <section class="card-group">
+    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+    <div class="card">
+      <img src="img/yamaha1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">YAMAHA MT-07</h5>
+        <p class="card-text">La Yamaha MT-07 es una de las naked más exitosas del mercado, un modelo que nació en 2014 y que desde entonces se ha ido renovando hasta llegar a la versión 2021, la última en llegar, manteniendo intacto el espíritu batallador y callejero que encarna la serie naked de Yamaha "Master Of Torque".</p>
+        <p class="card-text"><small class="text-body-secondary"></small></p>
+      </div>
+    </div>
+    </div>
+    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+    <div class="card">
+      <img src="img/yamaha 2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">YAMAHA MT-10 SP</h5>
+        <p class="card-text">Yamaha pone al servicio de aquellos que buscan un producto premium esta exclusiva versión SP de la MT-10. Beneficiada por unas suspensiones electrónicas Öhlins de segunda generación, equipadas con válvulas de control electrónico con 6 modos. Además de engalanarse con un esquema de pintura diferenciador Icon Performance.</p>
+        <p class="card-text"><small class="text-body-secondary"></small></p>
+      </div>
+    </div>
+    </div>
+    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+    <div class="card">
+      <img src="img/yamaha3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">YAMAHA TRACER 9</h5>
+        <p class="card-text">La Yamaha Tracer 9 es la sport turismo de la marca japonesa y que cuenta con una versión GT enfocada más todavía a escapadas de mayor duración. Es una moto que ha sido renovada casi por completo en 2021, introduciendo una serie de mejoras que afectan al motor, parte ciclo y electrónica</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    </div>
+  </section>
+  <br>
+  <br>
+<section class="row">
+  <div class = "col-xs-2 col-sm-4 col-md-2 col-lg-4 col-xl-4"></div>
+  <div class = "col-xs-2 col-sm-4 col-md-2 col-lg-4 col-xl-4"><iframe width="420" height="315" src="https://www.youtube.com/embed/791zv-s9Sgo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+  <div class = "col-xs-2 col-sm-4 col-md-2 col-lg-4 col-xl-4"></div>
+</section>
+
+  <!-- fin grupo card 3 -->
+<br>
+<br>
+  <!-- Grupo card 4 -->
+<div id="Suzuki"><h2>Motos Suzuki</h2></div>
+<br>
+<br>
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card">
+        <img src="img/suzuki1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">SUZUKI GSX-R125</h5>
+          <p class="card-text">La Suzuki GSX-R125 es la apuesta deportiva de Suzuki para el segmento de la convalidación del carnet B de coche. Con la inspiración en la tradición deportiva de la firma de Hamamatsu, la pequeña GSX-R llega con vitola de súperventas gracias a esa imagen de marca que transmite, apostando por la ligereza, facilidad de conducción y bajo consumo de combustible. Además apura la potencia legal con sus 15 CV para apoyar su ADN deportivo gracias a un propulsor monocilíndrico de refrigeración líquida.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="img/suzuki2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">SUZUKI SV650</h5>
+          <p class="card-text">La Suzuki SV650 es una naked de media cilindrada de estilo sencillo y elegante, y de aspiraciones deportivas, perfecta para los que buscan una naked limitable para el carnet A2 con la que disfrutar cuando se obtenga el carnet A. Deriva de la anterior Gladius y tras mantenerse en el catálogo de la marca japonesa sin cambios en los últimos años, en 2021 recibe una actualización para cumplir con la normativa Euro5, sin que esto se traduzca en una alteración en su cifra de potencia. Y en 2023 suma nuevos colores para refrescar su aspecto.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="img/suzuki3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">SUZUKI V-STROM 1050/XT</h5>
+          <p class="card-text">La Suzuki V-Strom 1050, disponible en versión estándar y en otra variante XT más aventurera, es la trail más potente de la marca japonesa Ha sido renovada en 2020 adquiriendo una imagen off-road clásica evocando a la mítica DR-Z Big. Para ello, los diseñadores han dado protagonismo a la parte delantera, en donde el conjunto formado por el voluminoso depósito de combustible, el pico de pato y el faro delantero de forma rectangular mantienen la esencia que tan popular hizo a la Big. En 2021 la XT ha recibido cambios de diseño: la amarilla añade tonos negros en el lateral, la negra pasa a tener las llantas doradas; y se añade un cuarto color gris con llantas azules. En 2021 se comercializaron versiones limitables para el A2.</p>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="col">
+      <div class="card">
+        <div class = "col-xs-2 col-sm-4 col-md-2 col-lg-4 col-xl-4"></div>
+        <iframe class="row row-cols-2 row-cols-md-2 g-4 width="633" height="300" src="https://www.youtube.com/embed/J7ed-3HgyQk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="videoSuzuki"></iframe>
+        <div class = "col-xs-2 col-sm-4 col-md-2 col-lg-4 col-xl-4"></div>
+        <div class="card-body">
+          <h5 class="card-title">Anuncio Suzuki</h5>
+          <p class="card-text"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- fin grupo card 4 -->
+<br>
+<br>
+<br>
+
+ <div id="Implementos"><h2>Implementos de seguridad </h2></div>
+ <br>
+ <br>
+   <!-- carusel 2 -->
+   <div id="carouselExampleFade" class="carousel slide carousel-fade">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/carusel2img1jpg.jpg" class="d-block w-100" id="imgcar2" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/carusel2img2.jpg" class="d-block w-100" id="imgcar2" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/carusel2img3jpg.jpg" class="d-block w-100" id="imgcar2" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+   <!-- fin carusel 2 -->
+
+   <br>
+   <br>
+
+  <!-- grupo card 5 -->
+<section id="Cascos"><h2> Cascos </h2>
+<br>
+<br>  
+  <div class="card-group">
+    <div class = "col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+      <div class="card">
+        <img src="img/CASCO1.JPG" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h2 class="card-title">Casco de motociclista</h2>
+          <p class="card-text">¿Por qué hay que usar casco?
+
+            Protege la cabeza, el cerebro y la cara.
+            Es una barrera, previene el contacto directo de cualquier objeto con el cráneo.
+            Absorbe parte del golpe, reduciendo la aceleración del cráneo y el movimiento del cerebro.
+            Distribuye la fuerza del impacto, evitando la concentración en un punto determinado de la cabeza.</p>
+          <p class="card-text"><small class="text-body-secondary"></small></p>
+        </div>
+      </div>
+    </div>
+      
+    <div class = "col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-4"><iframe width="420" height="350" src="https://www.youtube.com/embed/iiPw7Yn5k7c?start=18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="padding: 3%;"></iframe></div>
+    
+      <div class="card">
+        <img src="img/casco2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h2 class="card-title">¿Como elegir un casco?</h2>
+          <p class="card-text"> Debe tener una certificación internacional (Europa, EEUU o Japón).
+            Debe cubrir la frente por encima de las cejas.
+            No debe moverse, ni caer sobre los ojos o presionar la frente.
+            Debe permitir la visión periférica del motociclista.
+            Si el motociclista usa lentes, el casco no debe ejercer presión sobre ellos ni reducir la visión.</p>
+          <p class="card-text"><small class="text-body-secondary"></small></p>
+        </div>
+      </div>
+    </div>  
+  </section>  
+ <!-- fin card 5 -->
+ <br>
+ <br>
+ <!-- card 6 -->
+ <div id="Guantes"><h2>Guantes</h2></div>
+ <br>
+ <br>
+
+ <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="img/guantes1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">¿Para que sirven los guantes?</h5>
+        <p class="card-text">Este accesorio es imprescindible para proteger las manos de las inclemencias del tiempo, la suciedad o para protegernos en caso de caídas.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="img/guantes2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">¿Por qué son básicos para la seguridad?</h5>
+        <p class="card-text">Los guantes protegen las manos en caso de caída. Cuando nos vamos al suelo, lo primero que hacemos para protegernos es apoyar las manos e intentar amortiguar el golpe. Por esta razón, deben ir siempre bien protegidas.</p>
+      </div>
+    </div>
+  </div>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/VIn1x3sbfLI?start=18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+ </div> 
+ <!-- fin card 6 -->
+  <br>
+  <br>
+  <br>
+  <div id="Chaleco"><h2>Chaleco Airbag</h2></div>
+  <br>
+  <br>
+ <!-- card 7 -->
+ <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="img/CHALECO 1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">¿Que es un chaleco Airbag?</h5>
+        <p class="card-text">Un chaleco airbag es una prenda para motociclistas que incluye un sistema de seguridad integrado en la propia prenda. Dentro del chaleco se encuentra una bolsa que, al igual que el sistema airbag de un coche, se infla en caso de accidente gracias a una pequeña bombona de CO₂. Esta bombona es realmente pequeña de hecho, el chaleco se puede llevar debajo de la chaqueta sin que resulte voluminoso.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class = "col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-4"><iframe width="425" height="315" src="https://www.youtube.com/embed/Al5A6Ir2DoQ?start=18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+
+  <div class="col">
+    <div class="card h-100">
+      <img src="img/chaleco2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Cómo funciona el chaleco airbag para moto</h5>
+        <p class="card-text">El chaleco airbag funciona con unos dispositivos de seguridad internos, las denominadas bolsas de aire (de donde procede su nombre en inglés, airbag). Estos dispositivos son los encargados de amortiguar el golpe entre el conductor y otras superficies en caso de que se produzca un accidente. La bolsa de aire del chaleco se activa al producirse el impacto, con una pasmosa velocidad de 25 milisegundos.</p>
+      </div>
+    </div>
+  </div>
+</div>
+ <!-- fin card 7 -->
+
+ <br>
+ <br>
+ <br>
+ <!-- card 8 -->
+ <section id="Botas"><h2>Botas de seguridad</h2></section>
+ <br>
+ <br>
+ <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="img/botas1.jpg" class="card-img-top" alt="">
+      <div class="card-body">
+        <h5 class="card-title">Por qué son importantes las botas de moto</h5>
+        <p class="card-text">Las botas de moto no nos protegen únicamente del frío, dado que cuando suelen utilizarse es en invierno. Además, ofrecen protección a los dedos, los tobillos, los gemelos e incluso la espinilla.
+          En el caso de que se produjera una caída en movimiento, evitan las rozaduras o las quemaduras al entrar en contacto con el asfalto. Y cuando la caída se produce en parado, evitan que nos quememos con el tubo de escape o nos hagamos daño con la grava.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="img/botas2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">¿Están homologadas?</h5>
+        <p class="card-text">Tal y como sucede con el casco, las botas de moto también pueden estar homologadas. Aunque esto no equivale necesariamente a una excelente calidad, sí que nos ofrece una garantía. Para identificarlas debemos buscar un símbolo de un motorista.</p>
+      </div>
+    </div>
+  </div>
+  <div class = "col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-4"><iframe width="425" height="315" src="https://www.youtube.com/embed/CVy7hy9NbeI?start=18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+ 
+  
+</div>
+ <!-- fin card 8 -->
+<br>
+<br>
+
+ <!-- mapa ubicacion -->
+ <section id="mapa">
+
+ <div class="row mx-auto p-3">
+  <div class="col-xs-4 col-sm-4 col-md-6 col-lg-4 col-xl-4"><section id="mapa"><h2>AQUÍ</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206253.53245005207!2d-115.33981119656819!3d36.1248871221841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80beb782a4f57dd1%3A0x3accd5e6d5b379a3!2sLas%20Vegas%2C%20Nevada%2C%20EE.%20UU.!5e0!3m2!1ses!2scl!4v1684221378884!5m2!1ses!2scl" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-4" ;">
+    <div class="card-header" id="contacto">
+      Contactanos
+    </div>
+    <br>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item"  ><img src="img/instagram.png.svg"> Instagram: DavMotosLasVegas</li>
+      <li class="list-group-item"><img src="img/whatsapp.jpg.svg"> Whatsapp: +56 958426940</li>
+      <li class="list-group-item"><img src="img/mail.jpg.svg"> Gmail: davmotosvegas@gmail.com </li>
+      
+    </ul>
+  </div>
+
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-4" "> <h2>Hazte miembro</h2>
+    <div class="card">
+        <div class="card-body">
+            <form action="" method="POST">
+                <div class="form-group">
+                    <input type="text" id="txt_nombre" name="txt_nombre" class="form-control" placeholder="Nombre" required >
+                </div>
+                <div class="form-group">
+                    <input type="text" id="txt_apellido" name="txt_apellido" class="form-control" placeholder="Apellido" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="txt_rut" name="txt_rut" class="form-control" placeholder="Rut" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="txt_numero" name="txt_numero" class="form-control" placeholder="Numero de telefono" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="txt_email" name="txt_email" class="form-control" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <button onclick="test_agregar" class="btn btn-primary" type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+ 
+      <!-- listado -->
+      
+ </section>
+ <!-- fin mapa ubicacion -->
+</section>
+
+
+<!-- footer -->
+<footer class="bg-light text-center text-lg-start">
+  
+  <!-- Copyright -->
+  <div class="text-center p-3"  style="background-color: rgba(0, 0, 0, 0.2);">
+    <img src="img/logo2.png" alt="Logo" width="90" height="90" class="d-inline-block align-text-top">
+    © 2023 Copyright:
+    <a class="text-dark" href="davMotos.html">DavMotosLasVegas.cl</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+  
+  
+    
+</body>   
+
+ 

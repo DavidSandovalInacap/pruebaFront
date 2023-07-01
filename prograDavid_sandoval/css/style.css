@@ -1,0 +1,173 @@
+/* cambio color body */
+body {
+    background-color: rgba(96, 89, 89, 0.755);
+    margin-bottom: 1%;
+    background-image: url(.../img/fondo\ negro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+};
+
+.nav-link{
+    color: antiquewhite;
+}
+
+
+
+/* Marcas de motos */
+#Honda{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: antiquewhite;
+    
+}
+
+#BMW {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: antiquewhite;
+}
+
+#Yamaha {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: antiquewhite;
+}
+
+#Suzuki {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: antiquewhite;
+}
+
+#videoSuzuki{
+    padding: 3.8%;
+}
+/* carrusel */
+#letrasCarrusel1 h5,
+#letrasCarrusel1 p {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    transform: translateY(-2000%);
+    
+    
+}
+
+#letrasCarrusel2 h5,
+#letrasCarrusel2 p {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(214, 206, 206);
+    
+
+    
+    
+}
+#letrasCarrusel3 h5,
+#letrasCarrusel3 p {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(10, 10, 10);
+    transform: translateY(-2150%);
+
+    
+    
+}
+#imgNormalizacion{
+
+    height: 650px;
+    max-height:650px ;
+    width: 700px;
+}
+
+
+/* Cascos */
+
+#Cascos {
+    margin: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: antiquewhite;
+
+}
+
+.card-img-top {
+    max-width: 1080px;
+    max-height: 300px;
+    min-height: 300px;
+}
+
+/* barra de tareas */
+#navLetras {
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+/* Guantes */
+
+#Guantes {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: antiquewhite;
+    text-align: center;
+}
+
+#Chaleco {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: antiquewhite;
+    text-align: center;
+}
+
+/* carrusel 2 */
+
+#imgcar2 {
+    height: 550px;
+    max-height:550px ;
+    width: 700px;
+}
+
+#Implementos {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: antiquewhite;
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* botas de seguridad */
+
+#Botas {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: antiquewhite;
+    text-align: center;
+}
+
+/* Mapa ubicacion */
+
+#mapa {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: antiquewhite;
+}
+
+/* contacto */
+
+#contacto {
+    font-size: 30px;
+
+}
+/* dropdowns */
+
+.dropdown-menu{
+    background-color: gray;
+    list-style: none;
+}
+
+li {list-style-type: none}
+  
+
+.nav-link {
+    margin: 30px;
+}
