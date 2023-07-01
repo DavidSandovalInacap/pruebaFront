@@ -88,44 +88,6 @@ function mostarMarca(){
   
   
   
-    /* function actualizar_dueno(){
-      var myHeaders = new Headers();
-      myHeaders.append("Content-Type", "application/json");
-    
-      var nombre_tipo_producto  = document.getElementById('txt_nom_producto').value;
-      var cod_tipo_producto     = document.getElementById("txt_codigo_producto").value; 
-     
-      var raw = JSON.stringify({
-       
-        "nombre_tipo_producto": nombre_tipo_producto,
-        "cod_tipo_producto": cod_tipo_producto,
-      });
-      
-      var requestOptions = {
-        method: 'PATCH',
-        headers: myHeaders,
-        body: raw,
-        redirect: 'follow'
-                                              
-      };
-      
-      fetch("http://164.90.186.2:4000/dynamic/mostrar_dueno"+id_dueño, requestOptions)
-      .then(response => {
-        if(response.status == 200){
-            alert('Se actualizo correctamente...');
-        }else{
-            alert('Error al actualizar los datos...');
-        }
-        })
-      .then(response => console.log(response))
-      .catch(err => console.error(err));
-        }
-  
-  
-        /* funcion actualizar */
-  
-     //   
-  
   
   
   
